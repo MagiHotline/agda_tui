@@ -13,9 +13,9 @@ let's see how far I can go.
 
 # Roadmap
 
-- [] UI Skeleton
-- [] Communication Pipeline (IPC)
-- [] Editor Proxy
-- [] Connecting the Proxy to the TUI
-- [] Build the Agda parser and...
-- [] display it on the TUI
+- [ ] UI Skeleton
+- [ ] Communication Pipeline (IPC)
+- [ ] Editor Proxy
+- [ ] Connecting the Proxy to the TUI
+- [ ] Build the Agda parser and...
+- [ ] display it on the TUI
