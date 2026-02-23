@@ -1,0 +1,17 @@
+[package]
+authors = ["Paolo Imbriani <imbriani.paolo@hotmail.com>"]
+description = "Standalone TUI infoview for Agda"
+edition = "2021"
+keywords = ["agda", "proof-assistant", "tui", "mathematics"]
+license = "GPLv3"
+name = "agda_tui"
+
+[dependencies]
+color-eyre = "0.6.5"
+ratatui = "0.30.0"
+tokio = "1.49.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+dirs = "6"
